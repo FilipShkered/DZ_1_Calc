@@ -1,0 +1,65 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.body {
+    margin: 0 15px;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: auto;
+    height: 100vh;
+    background-image: url(../img/lightning.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 240px 190px;
+
+
+}
+
+
+
+.conteiner {
+
+   margin: 180px -15px;
+}
+
+.tital {
+    margin: 1rem;
+    color: #CBB26A;
+}
+
+.btn {
+    border-radius: 10px;
+    background-color: #CBB26A;
+    width: 25px;
+    height: 40px;
+    color: #1a1a1a;
+    margin: 15px 0;
+}
+
+.btn-more {
+    border-radius: 10px;
+    background-color: #e5d9b6;
+    color: #1a1a1a;
+}
+
+.btn-res {
+    border-radius: 10px;
+    background-color: #e5d9b6;
+    color: #1a1a1a;
+    width: 150px;
+    margin: 15px 0;
+    
+}
+
+.result {
+    display: flex;
+    font-size: large;
+    color: #CBB26A;;
+    border-radius: 10px;
+    
+    align-self: center;
+}
