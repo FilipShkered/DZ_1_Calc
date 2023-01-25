@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/x-icon" href="/img/calc.png" rel="shortcut icon">
+    <title>Calculator</title>
+</head>
+
+<body>
+
+    <input id="num1" />
+    <button onclick="root(num1)">root</button>
+    <button onclick="power(num1)">power</button>
+
+    <div id="operator_btns">
+        <button id="plus" class="operator" onclick="op='+'">+</button>
+        <button id="minus" class="operator" onclick="op='-'">-</button>
+        <button id="times" class="operator" onclick="op='*'">x</button>
+        <button id="divide" class="operator" onclick="op='/'">:</button>
+    </div>
+
+
+
+    <input id="num2" />
+
+    <button onclick="calculete()">=</button>
+
+    <p id="result"></p>
+    <p id="rootResult"></p>
+    <p id="powerResult"></p>
+
+
+
+    <script type="text/javascript" src="./script/script.js"></script>
+</body>
+
+</html>
